@@ -1,0 +1,133 @@
+\hypertarget{stm324xx_8h_source}{}\doxysection{stm324xx.\+h}
+\label{stm324xx_8h_source}\index{Inc/stm324xx.h@{Inc/stm324xx.h}}
+
+\begin{DoxyCode}{0}
+\DoxyCodeLine{1 \textcolor{preprocessor}{\#ifndef STM324XX\_H}}
+\DoxyCodeLine{2 \textcolor{preprocessor}{\#define STM324XX\_H}}
+\DoxyCodeLine{3 }
+\DoxyCodeLine{4 \textcolor{comment}{/* RCC Registers */}}
+\DoxyCodeLine{5 \textcolor{preprocessor}{\#define RCC\_BASE\_ADDR       0x40023800}}
+\DoxyCodeLine{6 }
+\DoxyCodeLine{7 \textcolor{comment}{/* GPIO Registers */}}
+\DoxyCodeLine{8 \textcolor{preprocessor}{\#define GPIOA\_BASE\_ADDR     0x40020000}}
+\DoxyCodeLine{9 \textcolor{preprocessor}{\#define GPIOB\_BASE\_ADDR     0x40020400}}
+\DoxyCodeLine{10 \textcolor{preprocessor}{\#define GPIOC\_BASE\_ADDR     0x40020800}}
+\DoxyCodeLine{11 \textcolor{preprocessor}{\#define GPIOD\_BASE\_ADDR     0x40020C00}}
+\DoxyCodeLine{12 \textcolor{preprocessor}{\#define GPIOE\_BASE\_ADDR     0x40021000}}
+\DoxyCodeLine{13 \textcolor{preprocessor}{\#define GPIOF\_BASE\_ADDR     0x40021400}}
+\DoxyCodeLine{14 \textcolor{preprocessor}{\#define GPIOG\_BASE\_ADDR     0x40021800}}
+\DoxyCodeLine{15 \textcolor{preprocessor}{\#define GPIOH\_BASE\_ADDR     0x40021C00}}
+\DoxyCodeLine{16 \textcolor{preprocessor}{\#define GPIOI\_BASE\_ADDR     0x40022000}}
+\DoxyCodeLine{17 \textcolor{preprocessor}{\#define GPIOJ\_BASE\_ADDR     0x40022400}}
+\DoxyCodeLine{18 \textcolor{preprocessor}{\#define GPIOK\_BASE\_ADDR     0x40022800}}
+\DoxyCodeLine{19 }
+\DoxyCodeLine{20 \textcolor{preprocessor}{\#define PIN\_0           0}}
+\DoxyCodeLine{21 \textcolor{preprocessor}{\#define PIN\_1           1}}
+\DoxyCodeLine{22 \textcolor{preprocessor}{\#define PIN\_2           2}}
+\DoxyCodeLine{23 \textcolor{preprocessor}{\#define PIN\_3           3}}
+\DoxyCodeLine{24 \textcolor{preprocessor}{\#define PIN\_4           4}}
+\DoxyCodeLine{25 \textcolor{preprocessor}{\#define PIN\_5           5}}
+\DoxyCodeLine{26 \textcolor{preprocessor}{\#define PIN\_6           6}}
+\DoxyCodeLine{27 \textcolor{preprocessor}{\#define PIN\_7           7}}
+\DoxyCodeLine{28 \textcolor{preprocessor}{\#define PIN\_8           8}}
+\DoxyCodeLine{29 \textcolor{preprocessor}{\#define PIN\_9           9}}
+\DoxyCodeLine{30 \textcolor{preprocessor}{\#define PIN\_10          10}}
+\DoxyCodeLine{31 \textcolor{preprocessor}{\#define PIN\_11          11}}
+\DoxyCodeLine{32 \textcolor{preprocessor}{\#define PIN\_12          12}}
+\DoxyCodeLine{33 \textcolor{preprocessor}{\#define PIN\_13          13}}
+\DoxyCodeLine{34 \textcolor{preprocessor}{\#define PIN\_14          14}}
+\DoxyCodeLine{35 \textcolor{preprocessor}{\#define PIN\_15          15}}
+\DoxyCodeLine{36 }
+\DoxyCodeLine{37 \textcolor{preprocessor}{\#define GPIO\_INPUT              0x00000000 }\textcolor{comment}{/* Input Floating Mode */}\textcolor{preprocessor}{}}
+\DoxyCodeLine{38 \textcolor{preprocessor}{\#define GPIO\_OUTPUT\_PP          0x00000001 }\textcolor{comment}{/* Output Push Pull Mode */}\textcolor{preprocessor}{}}
+\DoxyCodeLine{39 \textcolor{preprocessor}{\#define GPIO\_OUTPUT\_OD          0x00000011 }\textcolor{comment}{/* Output Open Drain Mode */}\textcolor{preprocessor}{}}
+\DoxyCodeLine{40 \textcolor{preprocessor}{\#define GPIO\_AF\_PP              0x00000002 }\textcolor{comment}{/* Alternate Function Push Pull Mode */}\textcolor{preprocessor}{}}
+\DoxyCodeLine{41 \textcolor{preprocessor}{\#define GPIO\_AF\_OD              0x00000012 }\textcolor{comment}{/* Alternate Function Open Drain Mode */}\textcolor{preprocessor}{}}
+\DoxyCodeLine{42 \textcolor{preprocessor}{\#define GPIO\_ANALOG             0x00000003 }\textcolor{comment}{/* Analog Mode */}\textcolor{preprocessor}{}}
+\DoxyCodeLine{43 }
+\DoxyCodeLine{44 \textcolor{preprocessor}{\#define GPIO\_SPEED\_LOW      0x00000000 }\textcolor{comment}{/* IO works at 2 MHz, please refer to the product datasheet */}\textcolor{preprocessor}{}}
+\DoxyCodeLine{45 \textcolor{preprocessor}{\#define GPIO\_SPEED\_MED      0x00000001 }\textcolor{comment}{/* range 12,5 MHz to 50 MHz, please refer to the product datasheet */}\textcolor{preprocessor}{}}
+\DoxyCodeLine{46 \textcolor{preprocessor}{\#define GPIO\_SPEED\_HIGH     0x00000002 }\textcolor{comment}{/* range 25 MHz to 100 MHz, please refer to the product datasheet  */}\textcolor{preprocessor}{}}
+\DoxyCodeLine{47 \textcolor{preprocessor}{\#define GPIO\_SPEED\_VERY\_HIGH    0x00000003 }\textcolor{comment}{/* range 50 MHz to 200 MHz, please refer to the product datasheet  */}\textcolor{preprocessor}{}}
+\DoxyCodeLine{48 }
+\DoxyCodeLine{49 \textcolor{keyword}{typedef} \textcolor{keyword}{struct}}
+\DoxyCodeLine{50 \{}
+\DoxyCodeLine{51     \textcolor{keywordtype}{unsigned} \textcolor{keywordtype}{int} MODER;}
+\DoxyCodeLine{52     \textcolor{keywordtype}{unsigned} \textcolor{keywordtype}{int} OTYPER;}
+\DoxyCodeLine{53     \textcolor{keywordtype}{unsigned} \textcolor{keywordtype}{int} OSPEEDR;}
+\DoxyCodeLine{54     \textcolor{keywordtype}{unsigned} \textcolor{keywordtype}{int} PUPDR;}
+\DoxyCodeLine{55     \textcolor{keywordtype}{unsigned} \textcolor{keywordtype}{int} IDR;}
+\DoxyCodeLine{56     \textcolor{keywordtype}{unsigned} \textcolor{keywordtype}{int} ODR;}
+\DoxyCodeLine{57     \textcolor{keywordtype}{unsigned} \textcolor{keywordtype}{int} BSRR;}
+\DoxyCodeLine{58     \textcolor{keywordtype}{unsigned} \textcolor{keywordtype}{int} LCKR;}
+\DoxyCodeLine{59     \textcolor{keywordtype}{unsigned} \textcolor{keywordtype}{int} AFRL;}
+\DoxyCodeLine{60     \textcolor{keywordtype}{unsigned} \textcolor{keywordtype}{int} AFRH;}
+\DoxyCodeLine{61 \} \mbox{\hyperlink{struct_g_p_i_o_reg_def}{GPIORegDef}};}
+\DoxyCodeLine{62 }
+\DoxyCodeLine{63 \textcolor{preprocessor}{\#define GPIOD           ((GPIORegDef *) GPIOD\_BASE\_ADDR)}}
+\DoxyCodeLine{64 \textcolor{preprocessor}{\#define GPIOA           ((GPIORegDef *) GPIOD\_BASE\_ADDR)}}
+\DoxyCodeLine{65 \textcolor{keyword}{typedef} \textcolor{keyword}{struct}}
+\DoxyCodeLine{66 \{}
+\DoxyCodeLine{67     \textcolor{keywordtype}{unsigned} \textcolor{keywordtype}{int} CR;}
+\DoxyCodeLine{68     \textcolor{keywordtype}{unsigned} \textcolor{keywordtype}{int} PLLCFGR;}
+\DoxyCodeLine{69     \textcolor{keywordtype}{unsigned} \textcolor{keywordtype}{int} CFGR;}
+\DoxyCodeLine{70     \textcolor{keywordtype}{unsigned} \textcolor{keywordtype}{int} CIR;}
+\DoxyCodeLine{71     \textcolor{keywordtype}{unsigned} \textcolor{keywordtype}{int} AHB1RSTR;}
+\DoxyCodeLine{72     \textcolor{keywordtype}{unsigned} \textcolor{keywordtype}{int} AHB2RSTR;}
+\DoxyCodeLine{73     \textcolor{keywordtype}{unsigned} \textcolor{keywordtype}{int} AHB3RSTR;}
+\DoxyCodeLine{74     \textcolor{keywordtype}{unsigned} int : 32;}
+\DoxyCodeLine{75     \textcolor{keywordtype}{unsigned} \textcolor{keywordtype}{int} APB1RSTR;}
+\DoxyCodeLine{76     \textcolor{keywordtype}{unsigned} \textcolor{keywordtype}{int} APB2RSTR;}
+\DoxyCodeLine{77     \textcolor{keywordtype}{unsigned} int : 32;}
+\DoxyCodeLine{78     \textcolor{keywordtype}{unsigned} int : 32;}
+\DoxyCodeLine{79     \textcolor{keywordtype}{unsigned} \textcolor{keywordtype}{int} AHB1ENR;}
+\DoxyCodeLine{80     \textcolor{keywordtype}{unsigned} \textcolor{keywordtype}{int} AHB2ENR;}
+\DoxyCodeLine{81     \textcolor{keywordtype}{unsigned} \textcolor{keywordtype}{int} AHB3ENR;}
+\DoxyCodeLine{82     \textcolor{keywordtype}{unsigned} int : 32;}
+\DoxyCodeLine{83     \textcolor{keywordtype}{unsigned} \textcolor{keywordtype}{int} APB1ENR;}
+\DoxyCodeLine{84     \textcolor{keywordtype}{unsigned} \textcolor{keywordtype}{int} APB2ENR;}
+\DoxyCodeLine{85     \textcolor{keywordtype}{unsigned} int : 32;}
+\DoxyCodeLine{86     \textcolor{keywordtype}{unsigned} int : 32;}
+\DoxyCodeLine{87     \textcolor{keywordtype}{unsigned} \textcolor{keywordtype}{int} AHB1LPENR;}
+\DoxyCodeLine{88     \textcolor{keywordtype}{unsigned} \textcolor{keywordtype}{int} AHB2LPENR;}
+\DoxyCodeLine{89     \textcolor{keywordtype}{unsigned} \textcolor{keywordtype}{int} AHB3LPENR;}
+\DoxyCodeLine{90     \textcolor{keywordtype}{unsigned} int : 32;}
+\DoxyCodeLine{91     \textcolor{keywordtype}{unsigned} \textcolor{keywordtype}{int} APB1LPENR;}
+\DoxyCodeLine{92     \textcolor{keywordtype}{unsigned} \textcolor{keywordtype}{int} APB2LPENR;}
+\DoxyCodeLine{93     \textcolor{keywordtype}{unsigned} int : 32;}
+\DoxyCodeLine{94     \textcolor{keywordtype}{unsigned} int : 32;}
+\DoxyCodeLine{95     \textcolor{keywordtype}{unsigned} \textcolor{keywordtype}{int} BDCR;}
+\DoxyCodeLine{96     \textcolor{keywordtype}{unsigned} \textcolor{keywordtype}{int} CSR;}
+\DoxyCodeLine{97     \textcolor{keywordtype}{unsigned} int : 32;}
+\DoxyCodeLine{98     \textcolor{keywordtype}{unsigned} \textcolor{keywordtype}{int} SSCGR;}
+\DoxyCodeLine{99     \textcolor{keywordtype}{unsigned} \textcolor{keywordtype}{int} PLLI2SCFGR;}
+\DoxyCodeLine{100 \} \mbox{\hyperlink{struct_r_c_c_reg_def}{RCCRegDef}};}
+\DoxyCodeLine{101 }
+\DoxyCodeLine{102 \textcolor{preprocessor}{\#define RCC         ((RCCRegDef *) RCC\_BASE\_ADDR)}}
+\DoxyCodeLine{103 }
+\DoxyCodeLine{104 \textcolor{comment}{/* External Interrupt Registers */}}
+\DoxyCodeLine{105 \textcolor{preprocessor}{\#define EXTI\_BASE\_ADDR      0x40013C00}}
+\DoxyCodeLine{106 }
+\DoxyCodeLine{107 \textcolor{preprocessor}{\#define GPIO\_IT\_RISING      0x00001100 }\textcolor{comment}{/* Ext Int with Rising edge trigger detection */}\textcolor{preprocessor}{}}
+\DoxyCodeLine{108 \textcolor{preprocessor}{\#define GPIO\_IT\_FALLING     0x00002100 }\textcolor{comment}{/* Ext Int Falling edge trigger detection */}\textcolor{preprocessor}{}}
+\DoxyCodeLine{109 \textcolor{preprocessor}{\#define GPIO\_IT\_RISING\_FALLING  0x00003100 }\textcolor{comment}{/* Ext Int Rising/Falling edge trigger detection */}\textcolor{preprocessor}{}}
+\DoxyCodeLine{110 \textcolor{preprocessor}{\#define GPIO\_EVT\_RISING     0x00001200 }\textcolor{comment}{/* Ext Event Rising edge trigger detection */}\textcolor{preprocessor}{}}
+\DoxyCodeLine{111 \textcolor{preprocessor}{\#define GPIO\_EVT\_FALLING    0x00002200 }\textcolor{comment}{/* Ext Event Falling edge trigger detection */}\textcolor{preprocessor}{}}
+\DoxyCodeLine{112 \textcolor{preprocessor}{\#define GPIO\_EVT\_RISING\_FALLING 0x00003200 }\textcolor{comment}{/* Ext Event Rising/Falling edge trigger detection */}\textcolor{preprocessor}{}}
+\DoxyCodeLine{113 \textcolor{preprocessor}{\#define GPIO\_SWT\_INT        0x00003300 }\textcolor{comment}{/* Ext Event Rising/Falling edge trigger detection */}\textcolor{preprocessor}{}}
+\DoxyCodeLine{114 }
+\DoxyCodeLine{115 \textcolor{keyword}{typedef} \textcolor{keyword}{struct}}
+\DoxyCodeLine{116 \{}
+\DoxyCodeLine{117     \textcolor{keywordtype}{unsigned} \textcolor{keywordtype}{int} IMR;}
+\DoxyCodeLine{118     \textcolor{keywordtype}{unsigned} \textcolor{keywordtype}{int} EMR;}
+\DoxyCodeLine{119     \textcolor{keywordtype}{unsigned} \textcolor{keywordtype}{int} RTSR;}
+\DoxyCodeLine{120     \textcolor{keywordtype}{unsigned} \textcolor{keywordtype}{int} FTSR;}
+\DoxyCodeLine{121     \textcolor{keywordtype}{unsigned} \textcolor{keywordtype}{int} SWIER;}
+\DoxyCodeLine{122     \textcolor{keywordtype}{unsigned} \textcolor{keywordtype}{int} PR;}
+\DoxyCodeLine{123 \} \mbox{\hyperlink{struct_e_x_t_i_reg_def}{EXTIRegDef}};}
+\DoxyCodeLine{124 }
+\DoxyCodeLine{125 \textcolor{preprocessor}{\#define EXTI            ((EXTIRegDef *) EXTI\_BASE\_ADDR)}}
+\DoxyCodeLine{126 }
+\DoxyCodeLine{127 \textcolor{preprocessor}{\#endif}}
+
+\end{DoxyCode}
