@@ -96,5 +96,20 @@ D-BUS This transport associates the databus of the Cortex®-M4 with FPU to the 6
 S-BUS This transport interfaces the framework transport of the Cortex®-M4 with FPU center to a BusMatrix. This transport is utilized to get to information situated in a fringe or in SRAM. Directions may likewise be brought on this transport (less productive than ICode). The objectives of this transport are the inward SRAM1, SRAM2 and SRAM3, the AHB1 peripherals including the APB peripherals, the AHB2 peripherals and the outside recollections through the FSMC/FMC.
 
 So guidelines and information use I-transport and D-transport individually, All the other fringe utilizes System transport. The Cortex-M4 processor contains three outside Advanced High-execution Bus (AHB)- Lite transport connection point and one Advanced Peripheral Bus (APB) interface. The GPIOs are associated with AHB1 transport which has a most extreme speed of 150Mhz and is isolated into two transports as APB1 and APB2. APB1 runs at 42Mhz(max) and APB2 runs at 82Mhz(max). The various peripherals like SPI, UART, TIMERs, ADCs, DACs, and so on are associated with either APB1/APB2 transports. Also, the AHB2(168Mhz max) is associated with Camera and USB OTG interfaces, AHB3 is associated with External memory regulator.
-# Output
+# Output 
+* User button pressed and hold it for two seconds(Led On)
+![User Button_Led on](https://user-images.githubusercontent.com/101423374/168374187-66e2dcc2-5852-4517-9e74-5f8ae9884f5c.JPG)
+* Wiper Speed Low
+![Wiper Speed Low](https://user-images.githubusercontent.com/101423374/168374264-5ce8f8c4-eb54-4f5c-a3c4-7fec8d349710.JPG)
+* Wiper Speed Medium
+![Wiper Speed Medium](https://user-images.githubusercontent.com/101423374/168374347-ebc84ddd-dc5e-49d7-846a-2aaccb2ca780.JPG)
+* Wiper Speed High
+![Wiper Speed High](https://user-images.githubusercontent.com/101423374/168374430-f329757a-569c-47e0-a7ee-4cce6628d558.JPG)
+* User button pressed and hold it for two seconds(Led Off)
+![User Button_Led off](https://user-images.githubusercontent.com/101423374/168374653-91a11238-b3be-4799-afe5-95cc31c23d62.JPG)
+* Wiper System
+![Wiper System](https://user-images.githubusercontent.com/101423374/168374707-93b5219e-15cd-4606-96b9-8d87cc472f85.JPG)
+
+
+
 
