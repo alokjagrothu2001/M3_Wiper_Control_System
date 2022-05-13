@@ -2,6 +2,13 @@
 ## Introduction
 This project is Wiper Control System.Wiper control system designed using STM32F407VG as the main controller, which senses the severity of rain or snow and helps in varying the speeds of wiper accordingly without any manual intervention.Ignition Key Position at ACC: The Red Led is On, if the user button is pressed and held for 2 secs Wiper is On: Wiper is OFF: By the press of the user input, Blue, Green and Orange LEDs come ON one at a time with the set frequency, The frequency changes on every alternate key presses, 3 frequency levels with 1, 4 and 8 Hz Wiper Off: Wiper is ON: The LED glow pattern stops on the 4th press; the wiper action starts next press onwards as mentioned in step 2 Ignition Key Position at Lock: The Red LED is OFF, if the user button is pressed and held for 2 secs.
 # Badges
+## Build On Linux: [![Build-Linux](https://github.com/alokjagrothu2001/M3_Wiper_Control_System/actions/workflows/Build%20on%20Linux.yml/badge.svg)](https://github.com/alokjagrothu2001/M3_Wiper_Control_System/actions/workflows/Build%20on%20Linux.yml)
+## Git Inspector: [![Contribution Check - Git Inspector](https://github.com/alokjagrothu2001/M3_Wiper_Control_System/actions/workflows/gitinspector.yml/badge.svg)](https://github.com/alokjagrothu2001/M3_Wiper_Control_System/actions/workflows/gitinspector.yml)
+## Cpp Check Analysis: [![Cppcheck Analysis](https://github.com/alokjagrothu2001/M3_Wiper_Control_System/actions/workflows/Cppcheck_Analyse.yml/badge.svg)](https://github.com/alokjagrothu2001/M3_Wiper_Control_System/actions/workflows/Cppcheck_Analyse.yml)
+## Code Quality
+### Codiga
+* Code Quality Score: ![Code quality score](https://api.codiga.io/project/33435/score/svg)
+* Code Grade: ![Code Grade](https://api.codiga.io/project/33435/status/svg)
 
 # Folder Structure
 |Folder|Description|
