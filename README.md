@@ -9,7 +9,8 @@ This project is Wiper Control System.Wiper control system designed using STM32F4
 ### Codiga
 * Code Quality Score: ![Code quality score](https://api.codiga.io/project/33435/score/svg)
 * Code Grade: ![Code Grade](https://api.codiga.io/project/33435/status/svg)
-
+### Codacy
+* Code Quality Grade: [![Codacy Badge](https://app.codacy.com/project/badge/Grade/998b3073862147e5815c7e59b1461295)](https://www.codacy.com/gh/alokjagrothu2001/M3_Wiper_Control_System/dashboard?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=alokjagrothu2001/M3_Wiper_Control_System&amp;utm_campaign=Badge_Grade)
 # Folder Structure
 |Folder|Description|
 |:--:|:--:|
