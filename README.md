@@ -20,7 +20,7 @@ This project is Wiper Control System.Wiper control system designed using STM32F4
 |`3_Implementation`| Contains the code of the project|
 |`4_TestCases`| Contains the test cases|
 |`5_Report`| Complete project report|
-|`6_Output`| Includes .elf file and images|
+|`6_Output`| Includes .elf file,Working Video and Images|
 
 # Contributors List & Summary
 |  Name   |    Features    |
