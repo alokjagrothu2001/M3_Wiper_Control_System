@@ -1,7 +1,7 @@
 # INTRODUCTION:
 Wiper is a fundamental part that is utilized to clear raindrops or any water off of the windscreen. Wipers are planned and made to clean the water off of a windscreen. Most vehicles have two wipers on the windscreen, one on the back window and the other on every front light. The wiper parts noticeable from outside the vehicle are the elastic edge, the wiper arm holding the sharp edge, a spring linkage, and portions of the wiper turns. The actual wiper has around six sections called pressure focuses or paws that are little arms under the wiper
 
-The current framework utilizes a control tail to initiate the wiper and the most common way of pulling up the wiper is difficult.r needs to turn on and off the control tail and it will diminish the driver's focus during the driving. Accordingly, this framework is proposed to tackle this large number of issues. The idea of this wiper framework is like other ordinary wipers, yet this framework will be moved up to a programmed control framework by utilizing a controller.When water hits a devoted sensor situated on the windscreen, it sets off the wiper engine to move. isn't distinguished by sensor, the wiper will consequently stop. This will assist the driver with giving more focus and lessen the auto collision likelihood.
+The current framework utilizes a control tail to initiate the wiper and the most common way of pulling up the wiper is difficult.Our needs to turn on and off the control tail and it will diminish the driver's focus during the driving. Accordingly, this framework is proposed to tackle this large number of issues. The idea of this wiper framework is like other ordinary wipers, yet this framework will be moved up to a programmed control framework by utilizing a controller.When water hits a devoted sensor situated on the windscreen, it sets off the wiper engine to move. isn't distinguished by sensor, the wiper will consequently stop. This will assist the driver with giving more focus and lessen the auto collision likelihood.
 
 In this task, there were two advancements checked on as the writing survey. The two were planned with various ideas and working component anyway with same goal of working standard of the vehicle wiper. The downpour sensor was a profoundly adaptable gadget for programmed cleaning of vehicle windscreen when it is wet because of dampness, raindrops or even mud. It worked by mirroring amicable light pillars inside the windscreen. Whenever raindrops fall onto the windscreen, this amicability light is upset and making a drop in the light bar force. The framework then, at that point, initiated the wipers to be worked in full programmed mode. It makes some reaction memories of 0.1 seconds. It considered a speedy response when an abrupt sprinkles of water will make the driver thoroughly 'blinds' when the circumstance occurred. With the programmed wiper, the driver can deflect the gamble of a mishap. The programmed wiper is significant during weighty traffic, for example around, city, school zone and other public spots. A driver might be exposed to numerous interruptions with awful climate, perilous street conditions and weariness. The Rain Sensor diminished the driver's weight by making driving more agreeable. Following a wet vehicle is as of now not an annoyance as location of even 0.005 milliliters of water is conceivable.
 
@@ -73,13 +73,13 @@ In this task, there were two advancements checked on as the writing survey. The 
 * Technological Lock in of Product
 ## THREATS
 * Low Bargaining Power Buyers
-* Highly REgulated Industry
+* Highly Regulated Industry
 * Ethical Pressure
 * Econimical Crisis
 # Exploring STM32F407 Discovery Board:
 ![image](https://user-images.githubusercontent.com/101699116/168215005-061df6d3-4596-4639-8eea-13b069ee27cb.png)
 * This venture gives practically all the fundamental data expected to begin with STM32F407 Discovery Board and furthermore advancement of driver code.
-* Hardware Used : STM32F4 DISCOVERY kit, for more information visit: STM32F4 DISCOVERY
+* Hardware Used : STM32F4 Discovery kit, for more information visit: STM32F4 DISCOVERY
 * Software Tool : STM32cubeIDE, for more information visit: STM32CubeIDE
 * For installation of STM32CubeIDE refer Youtube
 * Note : As this microcontroller has many advanced features and the main aim of this project is to get all basic insights, during the driver development only the required functionalities are added and other advanced functionality is not added. I may update the driver and other functionality in the future.
