@@ -1,6 +1,6 @@
 # Requirements
 ## Introduction
-This project is Wiper Control System.Wiper control system designed using STM32F407VG as the main controller, which senses the severity of rain or snow and helps in varying the speeds of wiper accordingly without any manual intervention.Ignition Key Position at ACC: The Red Led is On, if the user button is pressed and held for 2 secs Wiper is On: Wiper is OFF: By the press of the user input, Blue, Green and Orange LEDs come ON one at a time with the set frequency, The frequency changes on every alternate key presses, 3 frequency levels with 1, 4 and 8 Hz Wiper Off: Wiper is ON: The LED glow pattern stops on the 4th press; the wiper action starts next press onwards as mentioned in step 2 Ignition Key Position at Lock: The Red LED is OFF, if the user button is pressed and held for 2 secs.
+This project is Wiper Control System.Wiper control system designed using STM32F407VG as the main controller, which senses the severity of rain or snow and helps in varying the speeds of wiper accordingly without any manual intervention.Ignition Key Position at ACC: The Red Led is On, if the user button is pressed and held for 2 secs Wiper is On: Wiper is OFF: By the press of the user input, Blue, Green and Orange LEDs come ON one at a time with the set frequency, The frequency changes on every alternate key presses,Wiper Off: Wiper is ON: The LED glow pattern stops on the 4th press; the wiper action starts next press onwards as mentioned in step 2 Ignition Key Position at Lock: The Red LED is OFF, if the user button is pressed and held for 2 secs.
 ## Features
 * It can control wiper action without human intervention.
 * It is reliable and easy to configure.
@@ -8,9 +8,9 @@ This project is Wiper Control System.Wiper control system designed using STM32F4
 ## Description
 The STM32F405xx and STM32F407xx family is based on the high-performance Arm® Cortex®-M4 32-bit RISC core operating at a frequency of up to 168 MHz. The Cortex-M4 core features a Floating point unit (FPU) single precision which supports all Arm single-precision data-processing instructions and data types. It also implements a full set of DSP instructions and a memory protection unit (MPU) which enhances application security. The STM32F405xx and STM32F407xx family incorporates high-speed embedded.
 # Software Requirements
-stm32IDE
+Stm32IDE
 ## Components
-STM32F407VG MICROCONTROLLER BOARD
+STM32F407VG Microcontroller Board
 ## STM32F407VG
 The STM32F405xx and STM32F407xx family depends on the superior execution Arm® Cortex®-M4 32-digit RISC center working at a recurrence of up to 168 MHz. The Cortex-M4 center highlights a Floating point unit (FPU) single accuracy which upholds all Arm single-accuracy information handling directions and information types. It likewise executes a full arrangement of DSP directions and a memory insurance unit (MPU) which upgrades application security. The STM32F405xx and STM32F407xx family integrates fast installed.
 ## Xpack Packages
@@ -73,6 +73,6 @@ Accept that the car is the microcontroller. Assuming the button is hit, the prin
 * Technological Lock in of Product
 ## THREATS
 * Low Bargaining Power Buyers
-* Highly REgulated Industry
+* Highly Regulated Industry
 * Ethical Pressure
 * Econimical Crisis
